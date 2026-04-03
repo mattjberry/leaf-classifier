@@ -1,3 +1,12 @@
+# Histogram of Curvature Scale (HoCS) Leaf Classifier
+#
+# This script:
+#   - Implements and tests a Histogram of Curvature Scale (HoCS) descriptor.
+#   - Extracts HoCS descriptors for training images in a leaf dataset.
+#   - Prepares a K-Nearest-Neighbours (KNN) classifier from training descriptors.
+#   - Extracts HoCS descriptors for test images in the leaf dataset.
+#   - Classifies test image descriptors into one of three leaf shape classes.
+
 import os
 import skimage
 import skimage.io as io
